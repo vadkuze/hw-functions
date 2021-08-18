@@ -64,7 +64,7 @@ Output
 ```
 Пример 2
 ```
-[1,2,3,4].reduceFn((acc, curr) => acc+=curr)
+[1,2,3,4].reduce2((acc, curr) => acc+=curr)
 
 Output
 10
@@ -72,7 +72,7 @@ Output
 
 Пример 3
 ```
-[1,2,3,4].reduceFn((acc, curr) => acc+=curr, 1)
+[1,2,3,4].reduce2((acc, curr) => acc+=curr, 1)
 
 Output
 11
